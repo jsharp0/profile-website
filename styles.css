@@ -22,7 +22,7 @@ body {
   font-size: 1.3rem;
   animation-name: fadein;
   animation-duration: 4s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 
