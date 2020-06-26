@@ -1,0 +1,145 @@
+body {
+    font-family: 'Bree';
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Section 1 */
+.colored-section {
+    background-color: #0f284c;
+    color: #8c94ac;
+}
+
+.greeting {
+  font-family: corner-store-jf, sans-serif;
+  font-size: 5rem;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 1.3rem;
+  animation-name: fadein;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+
+.nav-link {
+  color: #8c94ac;
+  font-size: 1.1rem;
+}
+
+/* Background Images */
+.bg-image {
+  position: relative;
+}
+
+.star1 {
+  left: 30%;
+}
+
+.small-cloud {
+  left: 40%;
+}
+
+.star2 {
+  left: 15%;
+}
+
+.large-cloud {
+  z-index: 1;
+  left: 20%;
+}
+
+.earth {
+  z-index: 2;
+}
+
+/* Section 2 */
+
+.astronaut-image {
+  width: 25%
+}
+
+.subtitle {
+  color: #0f284c;
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+.normal-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.intro-text {
+  width: 50%;
+}
+
+/* Section 3 */
+.section-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #0f284c;
+}
+
+.circle-image, .circle-image-top, .circle-image-bottom {
+  width: 50%;
+}
+
+.circle-image-top {
+  display: none;
+}
+
+/* Section 4 */
+.contact-button {
+  background-color: #0f284c;
+  font-size: 2rem;
+  border-radius: 5px;
+  border-style: none;
+}
+
+/* Footer */
+.linkedin {
+  color: #8c94ac;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1216px) {
+  .large-cloud {
+    z-index: 1;
+    left: 20%;
+  }
+  .earth {
+    left: 70%
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .astronaut-image {
+    width: 40%
+  }
+  .circle-image-top {
+    display: inline-block;
+  }
+  .circle-image-bottom {
+    display: none;
+  }
+  .intro-text {
+    width: 70%;
+  }
+}
+
+/* Animations */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
